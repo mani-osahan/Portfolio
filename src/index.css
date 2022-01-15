@@ -1,13 +1,72 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.welcomeTitle {
+    margin: auto;
+    height: 100vh;
+    text-align: center;
+    font-size: 9rem;
+
+}
+
+.skills {
+    border-color: red;
+    height: 65vh;
+    margin: auto;
+    text-align: center;
+    font-size: 3rem;
+    background-color: #fff;
+    color: #000000;
+    -moz-box-shadow:    inset 0 0 20px #000000;
+    -webkit-box-shadow: inset 0 0 20px #000000;
+    box-shadow:         inset 0 11px 15px -10px #000000,
+                        inset 0 -10px 15px -10px #000000;
+}
+
+.skills li{
+    font-size: 16px;
+}
+
+.experience_title{
+
+}
+
+
+.experience {
+    height: 100vh;
+    border-color: red;
+    margin: auto;
+    text-align: center;
+    color: #000000;
+}
+
+
+.grid_card{
+    margin: 0 auto;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 15rem 15rem  15rem 15rem 15rem 15rem;
+    grid-template-rows: 5% 5% 5%;
+}
+
+.projects {
+    border-color: red;
+    height: 65vh;
+    margin: auto;
+    text-align: center;
+    font-size: 3rem;
+    color: #fff;
 }
